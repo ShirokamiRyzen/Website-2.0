@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons -->
+  <link href="https://avatars.githubusercontent.com/u/101597779?s=200&v=4" rel="icon">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>ReVanced</title>
+</head>
+
+<body>
+  <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="/" class="flex items-center">
+        <img src="https://avatars.githubusercontent.com/u/101597779?s=200&v=4" class="h-8 mr-3" alt="ReVanced Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ReVanced</span>
+      </a>
+      <div class="flex md:order-2">
+        <div>
+          <button class="buttonmsc" onclick="toggleMusic()" id="btn-playback" data-play="false">
+            <i class="fa fa-play"></i>
+          </button>
+          <audio id="audio" src="https://osanime.com/filedownload/2190008/Orange-(osanime.com).mp3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <button type="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+          started</button>
+        <button data-collapse-toggle="navbar-sticky" type="button"
+          class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul
+          class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#home"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+          </li>
+          <li>
+            <a href="#overview"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Overview</a>
+          </li>
+          <li>
+            <a href="#feature"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Feature</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="tengah aos-init aos-animate" data-aos="fade-down">
+      <h3 class="text-3xl font-bold negro">Youtube ReVanced</h3>
+      <br>
+      <p class="font-bold negro judul">YouTube ReVanced is a modded version which offers Background Playback,
+        Ad-Free content, SponsorBlock, Return YouTube Dislike and many more.</p>
+      <br>
+      <tr>
+        <td>
+          <button
+            class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <a
+              href="https://github.com/ShirokamiRyzen/revanced-creator/releases/download/Youtube/youtube-revanced_v18.05.40.apk">Direct
+              Download</a>
+          </button>
+        </td>
+        <td>
+          <button
+            class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center tombolkanan">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <a href="http://gg.gg/13p070">Mirror Download</a>
+          </button>
+        </td>
+      </tr>
+      <p class="negro tengah">Version: 18.05.40</p>
+      <br>
+      <tr>
+        <td>
+          <button
+            class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <a href="https://drive.google.com/file/d/10zMrOYWBckAFL-s1BxksY3FZc9uatp1E/view">MicroG</a>
+          </button>
+        </td>
+      </tr>
+      <p class="negro tengah">MicroG</p>
+      <p>
+        <br>
+        <img style="display: inline" loading="lazy" src="assets/img/revanced/revanced1.jpg" alt="" width="140"
+          height="300">
+        <img style="display: inline" loading="lazy" src="assets/img/revanced/revanced2.jpg" alt="" width="140"
+          height="300">
+        <img style="display: inline" loading="lazy" src="assets/img/revanced/revanced3.jpg" alt="" width="140"
+          height="300">
+      </p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="overview">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="tengah aos-init aos-animate" data-aos="fade-down">
+      <h3 class="text-3xl font-bold negro">What is Revanced APK?</h3>
+      <br>
+      <p class="negro tengah teksmid">YouTube ReVanced is a free, customizable YouTube client that replaces the
+        discontinued YouTube Vanced, providing users with similar app features and other additional modes. It also
+        includes ReVanced Music, which allows users to stream their ideal music genres with all the benefits of YouTube
+        Music Premium. However, the ReVanced APK is currently in its infancy and is not available as an APK, but as a
+        builder that you can use to build your own apps.
+      </p>
+      <br>
+      <p class="negro tengah teksmid">
+        YouTube ReVanced is an updated project of the most liked Youtube Vanced, that includes background playback,
+        ad-free content, SponsorBlock, Reverse YouTube Dislike and more.
+      </p>
+      <br>
+      <p class="negro tengah teksmid">
+        YouTube Vanced is dead and we will always cherish the simplicity it created for everyone on the platform. But we
+        can’t sit back and wait for its resurgence when many other viable alternatives offer similar features and a
+        better user experience. One of the most anticipated alternatives to Vanced is the official YouTube ReVanced APK
+        replacement. The app is still in its infancy, but it offers some impressive tweaks to keep the core YouTube
+        Vanced features and Vanced legacy alive. In this post, you will learn everything you need to know about the
+        YouTube ReVanced app.
+      </p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="feature">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class="max-w-screen-md mb-8 lg:mb-16 aos-init aos-animate" data-aos="fade-down">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Features</h2>
+        <p class="text-gray-500 sm:text-xl dark:text-gray-400">ReVanced offering many features that original app not
+          have.</p>
+      </div>
+      <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Secondary YouTube</h3>
+          <p class="text-gray-500 dark:text-gray-400">Like YouTube Vanced, you can download Revanced as a secondary
+            YouTube on your Android device unless you don’t want to delete the original version. The benefit of this
+            feature is that you can revert to an older version if you need to debug a new but unfinished Revanced app.
+          </p>
+        </div>
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Root and Non-Root Devices</h3>
+          <p class="text-gray-500 dark:text-gray-400">You can install YouTube Revanced on both rooted and non-rooted
+            devices by following a few simple steps. Still, many Android users found that the official app had not yet
+            been released and abandoned the idea of creating their own Revanced APK.</p>
+        </div>
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Disable Ads</h3>
+          <p class="text-gray-500 dark:text-gray-400">Revanced allows users to disable generic and video ads from the
+            platform, allowing users to watch content without interruption. This enhances your app’s user experience
+            through convenient and seamless streaming. I recognize the important role these ads play, especially for
+            creators of the content I follow.</p>
+        </div>
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Background Play</h3>
+          <p class="text-gray-500 dark:text-gray-400">You can watch YouTube videos while browsing other apps without
+            sharing your screen. This is beneficial for users who want to focus on other tasks such as browsing or
+            chatting while watching videos on a minimized floating screen in the background. Users can also place the
+            floating screen anywhere on the Android screen.</p>
+        </div>
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Custom Branding</h3>
+          <p class="text-gray-500 dark:text-gray-400">The Revanced app now lets you change the YouTube launcher icon and
+            name to your liking. Custom branding redefines open source customization by giving users complete control
+            over their user interface and allowing them to build the platform they prefer.</p>
+        </div>
+        <div class="aos-init aos-animate" data-aos="fade-down">
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Old Layout</h3>
+          <p class="text-gray-500 dark:text-gray-400">Some people hate change, no matter how small. I don’t blame them
+            as it can be difficult to adapt to new changes.So YouTube Revanced allows you to choose old quality layouts
+            on your platform as long as they are compatible with your device. These options contain 240p, 480p, 1080p,
+            1440p, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+          <img src="https://avatars.githubusercontent.com/u/101597779?s=200&v=4" class="h-8 mr-3" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ReVanced</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">Legal</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://revanced.app"
+          class="hover:underline">ReVanced</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+
+
+  <!--Javascript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
