@@ -128,3 +128,9 @@ div.kanan {
     font-family: arial, sans-serif;
     color: #fff;
 }
+
+.iklan {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
